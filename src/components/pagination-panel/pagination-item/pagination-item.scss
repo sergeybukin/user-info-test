@@ -1,0 +1,25 @@
+$key-lime: #e2eb98;
+$morning-blue: #93a392;
+$laurel-green: #adbf97;
+$celadon: #bad9a2;
+$cambridge-blue: #9dc4b5;
+.pagination {
+  width: max-content;
+  margin: 20px auto;
+
+  .page-link {
+    color: $morning-blue;
+  }
+}
+
+.page-item.active .page-link {
+  color: white;
+  background-color: $morning-blue;
+  border: $morning-blue;
+}
+
+.page-item.disabled .page-link {
+  color: white;
+  background-color: $laurel-green;
+  border: white;
+}

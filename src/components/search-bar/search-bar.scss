@@ -1,0 +1,12 @@
+@import "../../index";
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+
+  .search-bar-input {
+    margin-right: 1%;
+  }
+}

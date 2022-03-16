@@ -1,0 +1,34 @@
+$key-lime: #e2eb98;
+$morning-blue: #93a392;
+$laurel-green: rgba(173, 191, 151, 0.46);
+$celadon: #bad9a2;
+$cambridge-blue: rgba(157, 196, 181, 0.5);
+
+.user-products {
+  width: 100%;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      transition: ease 0.1s;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  li:nth-child(1n) {
+    background-color: $laurel-green;
+  }
+
+  li:nth-child(2n) {
+    background-color: $cambridge-blue;
+  }
+
+  .title-small {
+    text-align: center;
+  }
+}

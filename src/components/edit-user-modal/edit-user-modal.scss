@@ -1,0 +1,25 @@
+.user-edit-modal {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-top: 1%;
+  }
+
+  div {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+
+    .btn {
+      padding: 1% 2%;
+    }
+  }
+
+  &.user-modal {
+    padding: 1%;
+    top: 20%;
+    left: 20%;
+    width: 30%;
+  }
+}

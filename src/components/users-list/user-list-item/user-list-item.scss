@@ -1,0 +1,45 @@
+.user-list-item {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2% 0;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .user-avatar {
+    width: 20%;
+    margin-right: 5%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .user-info {
+    .user-edit-panel {
+      display: flex;
+
+      .btn {
+        display: block;
+        padding: 0;
+        background: unset;
+        font-size: 20px;
+        color: inherit;
+        transition: ease 0.2s;
+        will-change: transform;
+
+        &.remove-btn {
+          margin-left: 10%;
+        }
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
